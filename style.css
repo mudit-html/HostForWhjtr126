@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: url("./bg.png");
+  background-size: cover;
+}
+
+.heading {
+  font-size: 24px;
+  width: 100%;
+  margin: 0px;
+  box-shadow: 40px 40px 80px 15px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 40px 40px 80px 15px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 40px 40px 80px 15px rgba(0, 0, 0, 0.75);
+}
+
+.note {
+  font-size: 15px;
+  color: black;
+}
+
+#song {
+  font-size: 23px;
+  margin: 15px;
+  box-shadow: 40px 40px 80px 15px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 40px 40px 80px 15px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 40px 40px 80px 15px rgba(0, 0, 0, 0.75);
+}
+
+canvas {
+  border: 3px solid white;
+  border-radius: 20px;
+}
+
+.copy-right-footer {
+  position: fixed;
+  color: #6c757d;
+  bottom: 0;
+  width: 100%;
+  background-color: #f5f5f5;
+  line-height: 3;
+  text-align: center;
+  font-family: "Special Elite", cursive;
+}
